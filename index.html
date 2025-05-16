@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Como hospedar no Github Pages</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Passos para hospedar um Projeto no Github Pages</h1>
+    <ol>
+        <li>Crie Um repostitorio Github com o mesmo nome do seu projeto.</li>
+        <li>No terminal,inicialize o repostitorio local com <code>git init</code>.</li>
+        <li>Altere o nome da branch principal <code>main</code>.</li>
+        <li>Adicione os arquivos com <code>git add .</code> e faça o commit com <code>git commit -m "first commit"</code></li>
+        <li>Conecte ao repostitorio remoto com <code>git remote add origin linkrepo.</code></li>
+        <li>Envie os arquivos com <code>git push -u origin main.</code></li>
+        <li>No github,vá em <strong>Settings > Pages</strong></li>
+        <li>Em "branch" selecione <code>main</code> e a pasta <code>/ root</code> clique em <strong>Save</strong></li>
+        <li>Após alguns segundos, seu site estara disponivel no link exibido em "Pages".</li>
+    </ol>
+  </main>
+</body>
+</html>
